@@ -1,7 +1,8 @@
-dotRoot="$HOME/dotfiles"
+export DOT_ROOT="$HOME/dotfiles"
 
-source "$dotRoot/common/aliases.sh"
-source "$dotRoot/mac-common/aliases.sh"
+source "$DOT_ROOT/common/aliases.sh"
 
-source "$dotRoot/mac-common/nvm.sh"
-source "$dotRoot/mac-common/nvm-intel.sh"
+source "$DOT_ROOT/mac-common/nvm.sh"
+source "$DOT_ROOT/mac-common/nvm-intel.sh"
+
+source "$DOT_ROOT/mac-common/ffmpeg.sh"
