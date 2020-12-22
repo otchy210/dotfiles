@@ -1,0 +1,14 @@
+# This file is named as .bashrc.local to avoid overriding original ~/.bashrc which is managed by Indeed
+# You need to run following manually to make this file affective
+# $ ~/dotfiles/setup.sh linux-work
+# $ echo "source ~/.bashrc.local" >> ~/.bashrc
+
+export DOT_ROOT="$HOME/dotfiles"
+
+source "$DOT_ROOT/common/aliases.sh"
+
+source "$DOT_ROOT/linux-common/aliases.sh"
+
+source "$DOT_ROOT/bash-common/goto.sh"
+
+source "$DOT_ROOT/linux-work/env.sh"
