@@ -11,7 +11,7 @@ if [ "$target" == "" ] || [ "$1" != "" ]; then
     exit 1;
 fi
 
-if [ "$target" != "mac-personal" ] && [ "$target" != "mac-personal" ] && [ "$target" != "mac-personal" ]; then
+if [ "$target" != "mac-personal" ] && [ "$target" != "mac-work" ] && [ "$target" != "linux-work" ]; then
     echo "first argument should be mac-personal, mac-work, or linux-work" >&2
     exit 1;
 fi

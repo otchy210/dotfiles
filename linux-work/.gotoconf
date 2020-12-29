@@ -1,0 +1,49 @@
+# Private area
+dotfiles=/home/toru/dotfiles/
+env=/home/toru/env/
+envetc=/home/toru/env/etc/
+downloads=/home/toru/Downloads
+desktop=/home/toru/Desktop
+dropbox=/home/toru/Dropbox
+
+# common
+javadev=/home/toru/indeed/javadev
+javadevbuild=/home/toru/indeed/javadev/build
+javadevbin=/home/toru/indeed/javadev/bin
+hobo=/home/toru/indeed/hobo
+hobodata=/home/toru/hobo_data
+
+# dradis
+dradishost=/home/toru/indeed/dradishost
+dradiscommon=/home/toru/indeed/dradis-common
+dradiscommonwebapp=/home/toru/indeed/dradis-common-webapp
+thrace=/home/toru/indeed/thrace
+thracelogs=/home/toru/hobo_data/thrace/logs
+roslin=/home/toru/indeed/roslin
+roslinlogs=/home/toru/hobo_data/roslin/logs
+dradiswebapp=/home/toru/indeed/dradis-webapp
+dradiswebapplogs=/home/toru/hobo_data/dradis-webapp/logs
+cerberus=/home/toru/indeed/cerberus
+cerberuslogs=/home/toru/hobo_data/cerberus/logs
+theseus=/home/toru/indeed/theseus
+theseuslogs=/home/toru/hobo_data/theseus/logs
+hades=/home/toru/indeed/hades
+hadeslogs=/home/toru/hobo_data/hades/logs
+
+# IDSync
+idsyncwebapp=/home/toru/indeed/idsync-webapp
+idsyncwebapplogs=/home/toru/hobo_data/idsync-webapp/logs
+idsynccommon=/home/toru/indeed/idsync-common
+
+# Jproxy
+jproxywebapp=/home/toru/indeed/jproxy-webapp
+jproxywebapplogs=/home/toru/hobo_data/jproxy-webapp/logs
+
+# Tophat
+tophat=/home/toru/indeed/tophat-webapp
+tophatlogs=/home/toru/hobo_data/tophat/logs
+
+# CMI
+jpdp=/home/toru/indeed/japan-draw-plugin
+jobphotoservice=/home/toru/indeed/job-photo-service
+jobphotoservicelogs=/home/toru/hobo_data/jobphoto-service/logs
