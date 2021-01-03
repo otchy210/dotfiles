@@ -9,4 +9,6 @@ source "$DOT_ROOT/mac-common/nvm-intel.sh"
 
 source "$DOT_ROOT/mac-common/ffmpeg.sh"
 
+source "$DOT_ROOT/mac-common/mysql@5.6.sh"
+
 source "$DOT_ROOT/mac-personal/secret.sh"
