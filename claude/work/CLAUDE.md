@@ -30,6 +30,8 @@ Balance brevity and depth based on the task:
 - Do not create documentation files unless explicitly asked
 - Run linters after making code changes
 - Ask before making assumptions on ambiguous tasks
+- Base all planning and coding decisions on facts, not speculation or assumptions
+- When providing reports or analysis, always cite the sources and evidence that support your findings
 
 ## Before Implementing
 
