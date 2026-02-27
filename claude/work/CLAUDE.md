@@ -34,4 +34,5 @@ Balance brevity and depth based on the task:
 ## Before Implementing
 
 1. **Search the current repository first**: Always look for existing code that does something similar before writing new code. Follow established patterns in the codebase.
-2. **Fall back to Indeed's codebase via DeepSearch**: If no relevant example exists in the current repository, use the `deepsearch` MCP to research how it is done across Indeed's broader codebase before writing your own implementation.
+2. **Next, search the local repositories**: If no relevant example exists in the current repository, scan the ~/indeed directory, which contains locally cloned repositories.
+3. **Fall back to Indeed's codebase via DeepSearch**: If no relevant example exists in the current repository and local repositories, use the `deepsearch` MCP to research how it is done across Indeed's broader codebase before writing your own implementation.
