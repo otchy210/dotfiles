@@ -29,6 +29,7 @@ Balance brevity and depth based on the task:
 - Prefer editing existing files over creating new ones
 - Do not create documentation files unless explicitly asked
 - Run linters after making code changes
+- Before asking the user for information, check Indeed resources (Glean, DeepSearch) first
 - Ask before making assumptions on ambiguous tasks
 - Base all planning and coding decisions on facts, not speculation or assumptions
 - When providing reports or analysis, always cite the sources and evidence that support your findings
