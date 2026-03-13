@@ -13,4 +13,7 @@ source "$DOT_ROOT/mac-common/mysql@5.6.sh"
 
 source "$DOT_ROOT/mac-common/release-tcp-port.sh"
 
-source "$DOT_ROOT/mac-personal/secret.sh"
+# Load local-only secrets if present (ignored by git via */secret.sh).
+if [ -f "$DOT_ROOT/mac-personal/secret.sh" ]; then
+  source "$DOT_ROOT/mac-personal/secret.sh"
+fi
